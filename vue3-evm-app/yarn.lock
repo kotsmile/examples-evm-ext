@@ -2291,10 +2291,10 @@ events@^3.0.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
-evm-ext-vue3@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/evm-ext-vue3/-/evm-ext-vue3-0.0.13.tgz#586b350e676b63e4325113d871edc8c93aa1880f"
-  integrity sha512-3lWSFNa/kLwVYKPUFqoTQrc2e0D4zhSCJKqpy0PzkehDbcn6Mjc5wZT9UmYYDuqc55dSqHIb8qTFOEaeZdD1NQ==
+evm-ext-vue3@^0.0.14-a:
+  version "0.0.14-a"
+  resolved "https://registry.yarnpkg.com/evm-ext-vue3/-/evm-ext-vue3-0.0.14-a.tgz#6f91609f834d94d879de14dcb338c990c96d3b98"
+  integrity sha512-pf7ULgs6HpT/cuLyXMoK9HtGXDk4I4rNSM61NqBl6x0HqYGFQmmhmtnuZtUmJoJvskcdR5EdXSgxycqkmAjpkA==
   dependencies:
     ethers "5.5.3"
     evm-ext "^0.0.11"
@@ -2310,10 +2310,10 @@ evm-ext@^0.0.11:
     "@walletconnect/web3-provider" "^1.8.0"
     ethers "5.5.3"
 
-evm-ext@^0.0.13-a:
-  version "0.0.13-a"
-  resolved "https://registry.yarnpkg.com/evm-ext/-/evm-ext-0.0.13-a.tgz#d3332263d2ad51905853b5b02a115b9b3f736f13"
-  integrity sha512-X97w2Xo1n8cWE/n185kkSDgNWxIGaF3eoEAEM0NUBBzo9XEgC90K1BQ1yq0fdkGOtGECJ6FuPdB0TGEttMcflA==
+evm-ext@^0.0.16-a:
+  version "0.0.16-a"
+  resolved "https://registry.yarnpkg.com/evm-ext/-/evm-ext-0.0.16-a.tgz#b94f3ac977591afcac2068f1e4cae1baa4cfa751"
+  integrity sha512-rLT2UlOU+SqUoCECFOd7Zec7Z+kRzLvSLa1lt6DH4P7Q0VJ2cAP8a2jLhilvYo3bYyvUh7hVaDPZGh9SPWYsQQ==
   dependencies:
     "@coinbase/wallet-sdk" "^3.6.2"
     "@walletconnect/web3-provider" "^1.8.0"

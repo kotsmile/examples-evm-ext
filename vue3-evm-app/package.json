@@ -10,8 +10,8 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "evm-ext": "^0.0.13-a",
-    "evm-ext-vue3": "^0.0.13",
+    "evm-ext": "^0.0.16-a",
+    "evm-ext-vue3": "^0.0.14-a",
     "pinia": "^2.0.28",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
