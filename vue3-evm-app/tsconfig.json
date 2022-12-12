@@ -5,7 +5,13 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "resolveJsonModule": true,
+    "strict": true,
+    "preserveValueImports": false,
+    "skipLibCheck": true,
+    "importsNotUsedAsValues": "preserve",
+    "isolatedModules": true
   },
 
   "references": [

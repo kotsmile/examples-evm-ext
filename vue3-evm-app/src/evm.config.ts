@@ -1,5 +1,6 @@
 import { defineEvmConfig, modules, utils } from 'evm-ext'
 import { vueAdapater, piniaStore } from 'evm-ext-vue3'
+import { wallets } from 'evm-ext-wallets'
 
 import contractsJSON from '@/contracts/contracts.json'
 import type { Token } from '@/contracts/typechain'
@@ -24,4 +25,6 @@ export const useEvm = defineEvmConfig({
     token: piniaStore(import('@/store/contracts/token.evm').then((_) => _.useToken)),
   },
   adapter: vueAdapater,
+  wallets,
+  DEBUG: true,
 })

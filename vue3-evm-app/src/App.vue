@@ -18,7 +18,9 @@ const token = useToken()
 
     <div>Wallet: {{ wallet.wallet }}</div>
     <div>ChainId: {{ wallet.chainId }}</div>
+
     <div>Symbol: {{ token.symbol }}</div>
+    <div>Balance: {{ token.balance }}</div>
   </div>
 </template>
 
